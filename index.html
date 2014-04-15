@@ -1,11 +1,57 @@
+ <!DOCTYPE html
+     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
 <html>
+	
 	<head>
+
+		<title>GeeMail</title>
+		<meta name="keywords" content="geemail" />
+		<meta name="description" content="geemail" />
+		<meta name="author" name="JT" />
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+
 		<script src="js/mail-generator.js"></script>
 		<link href="css/style.css" rel="stylesheet" media="screen">
+
+		<script>
+		window.onload = process();
+
+		function process(){
+			for (var i = 0; i < window.geemails.length; i++){
+				var mail = window.geemails[i];
+				console.log(mail.subject);
+				console.log(mail.date);
+			}
+		}
+		
+		console.log)('second stuff');	
+
+		</script>
+
 	</head>
+
+	
 	<body>
-		<div class="container" id="main">
-			Build Me!
-		</div>
+
+		<div id="header"><h1>geemail</h1></div>
+
+		<div id="wrapper">
+			<h2>Call Your Mother</h2>
+			<h3>April 11, 2013  7:25 PM<br />
+			From <a href="mailto:marymonster@marymonster.com">Mary Monster</a></h3>
+			<p>Xander, that's not the North Star, it's an airplane. You can't open the book of my life and jump in the middle. What do they need such good eyesight for anyway? Well we could grind our enemies into talcum powder with a sledgehammer but, gosh, we did that last night. The gentlemen are coming by. You cant take the sky from me. Okay, at this point you're abusing sarcasm. Well, I haven't been to a hell dimension just of late, but I do know a thing or two about torment. And now the one person who should be here is gone, and a waste like you gets to live.<p>
+
+</div>
+
+		<div id="main"></div>
+
+
+		<div id="footer">&copy; 2014 Coding Challenge</div>
+
 	</body>
+
 </html>
